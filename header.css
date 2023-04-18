@@ -1,0 +1,42 @@
+header {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px;
+    background-color:var(--header-cor-de-fundo);
+    color: white;
+    max-height: 1%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.container__imagem {
+    padding: 10px ;
+}
+
+.container__titulo {
+    font-weight: 400;
+    display: block;
+}
+
+.opcoes {
+    display: flex;
+}
+
+.itens {
+    display: flex;
+    margin: 0em 3em;
+}
+
+.imagem__header {
+    position: relative;
+    height: 30vw;
+    width: 100%;
+    padding: 10px;
+}
+
+.itens :hover{
+    color: var(--cor-quando-passar-mouse);
+}

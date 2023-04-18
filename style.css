@@ -1,0 +1,68 @@
+@import url(carrossel.css);
+@import url(header.css);
+@import url(contato.css);
+@import url(cadastro-finalizado.css);
+@import url(footer.css);
+
+:root {
+    --cor-de-fundo: #69e6fb;
+    --header-cor-de-fundo: black;
+    --cor-borda: red;
+    --cor-quando-passar-mouse:#69e6fb;
+    --cor-de-fundo-body:  rgb(239, 239, 239);
+    --cor-do-texto: rgb(83, 83, 83);
+}
+
+body {
+    background-color: var(--cor-de-fundo-body);
+}
+
+.motivacoes {
+    background-color: var(--header-cor-de-fundo);
+    display: flex;
+    padding: 3em;
+}
+
+.motivacao-imagem {
+    width: 60%;
+    display: flex;
+}
+
+.titulo_motivacao {
+    margin-top: 5em;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: var(--cor-de-fundo);
+    padding: 1em;
+}
+
+p {
+    font-size: 19px;
+    color:var(--cor-do-texto);
+    line-height: 35px;
+    position: relative;
+}
+
+.imagem__sobrenos {
+    width: 48%;
+    margin: 0 2em 1em;
+}
+
+.sobrenos {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin: 1em;
+}
+
+.sobrenos2 {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin: 1em;
+}
+

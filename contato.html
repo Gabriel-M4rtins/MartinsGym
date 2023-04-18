@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=devide-widht, initial-scale=1.0">
+    <title>Gym Martins</title>
+    <link rel="shorcut icon" href="/img/LOGO GM.png">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div class="container">
+            <img src="/img/LOGO GM2.png" class="container__imagem">
+            <h1 class="container__titulo">Martins Gym</h1>
+            <ul class="opcoes">
+                <li class="itens"><a href="/index.html">Home</a></li>
+                <li class="itens"><a href="/index.html">Quem somos</a></li>
+                <li class="itens"><a href="/contato.html">Contato</a></li>
+            </ul>
+    </div>
+</header>
+
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <main class="principal">
+        <form class="principal__formulario" id="formulario" target="_blank"
+            onsubmit="location.replace('./cadastro-fanalizad0.html')">
+            <h3 class="principal__subtitulo">Dados pessoais</h3>
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="nome">Nome Completo</label>
+                <input name="nome" id="nome" class="campo__escrita" required />
+            </div>
+            <div class="formulario__dupla">
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="nascimento">Nascimento</label>
+                    <input name="nascimento" id="nascimento" type="date" class="campo__escrita" required />
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="telefone">Contato</label>
+                    <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
+                        required />
+                </div>
+            </div>
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="email">E-mail</label>
+                <input name="email" id="email" type="email" class="campo__escrita" required />
+            </div>
+
+            <h3 class="principal__subtitulo">Endereço</h3>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="cep">CEP</label>
+                <input name="cep" id="cep" class="campo__escrita" required />
+                <div id="erro"></div>
+            </div>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="endereco">Endereço</label>
+                <input name="endereco" id="endereco" class="campo__escrita" required />
+            </div>
+            <div class="formulario__dupla">
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="numero">Numero</label>
+                    <input name="numero" id="numero" class="campo__escrita" required />
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="complemento">Complemento</label>
+                    <input name="complemento" id="complemento" class="campo__escrita" />
+                </div>
+            </div>
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="bairro">Bairro</label>
+                <input name="bairro" id="bairro" class="campo__escrita" required />
+            </div>
+            <div class="formulario__dupla">
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="cidade">Cidade</label>
+                    <input name="cidade" id="cidade" class="campo__escrita" required />
+                </div>
+            
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="estado">UF</label>
+                    <select id="estado" name="estado" class="campo__escrita">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+
+                <input type="submit" value="Enviar formulário" class="formulario__botao" id="enviar">
+            </form>
+        </main>
+    
+</body>
+
+<footer>
+    <div class="container">
+            <img src="/img/LOGO GM2.png" class="container__imagem">
+            <h1 class="container__titulo">Martins Gym</h1>
+            <p class="textorodape">© 2023 Academia Martins GYM - Todos os direitos reservados</p>
+    </div>
+</footer>
+
+<script src="/main.js"></script>
+
+</html>

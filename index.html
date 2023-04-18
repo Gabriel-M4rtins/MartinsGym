@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=devide-widht, initial-scale=1.0">
+        <title>Gym Martins</title>
+        <link rel="shorcut icon" href="/img/LOGO GM.png">
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <header>
+        <div class="container">
+                <img src="/img/LOGO GM2.png" class="container__imagem">
+                <h1 class="container__titulo">Martins Gym</h1>
+                <ul class="opcoes">
+                        <li class="itens"><a href="/index.html">Home</a></li>
+                        <li class="itens"><a href="#tips">Quem somos</a></li>
+                        <li class="itens"><a href="/contato.html">Contato</a></li>
+                </ul>
+        </div>
+
+        <img src="/img/academia header.webp" class="imagem__header">
+    </header>
+
+    <body>
+        <div class="motivacoes">
+         <img src="/img/cutler.jpg" class="motivacao-imagem">
+         <h1 class="titulo_motivacao">Treinar não é compromisso com a academia, é compromisso com você mesmo.</h1>
+        </div>
+         <H2 id="tips">Um pouco sobre nós</H2>
+         <div class="sobrenos">
+         <p>Com programas que se adequem ao seu gosto de um modo personalizado. E foi com base nesse principio que a Martins Gym – Unidade Americana – nasceu, cresceu, amadureceu e é consolidada como a melhor e mais completa academia da cidade de Americana e região.Na Martins Gym nós vamos muito além de nos importarmos com a condição física de nossos convidados. Tudo se concentra na qualidade de vida, da mente, e da alma.</p>
+         <img src="/img/academia dentro.webp"class="imagem__sobrenos">
+        </div>
+        <div class="sobrenos2">
+         <img src="/img/academia frente.jpg" class="imagem__sobrenos">
+         <p>Integralmente estruturada no conceito wellness, a Martins Gym rapidamente se tornou referência pelo seu alto padrão de qualidade, infraestrutura e serviços, tudo isso com um preço justo.O importante para nós é ver você, nosso convidado, melhor sempre! Trata-se de um pensamento além. Nós queremos partilhar, motivar e superar todos os desafios em um ambiente com clima de troca de energias positivas e sorrisos de vitória.</p>
+        </div>
+
+         <section class="carrossel">
+         <h3 class="carrossel__titulo">Nossos Planos</h3>
+         <!-- Slider main container -->
+         <div class="swiper">
+         <!-- Additional required wrapper -->
+         <!-- If we need pagination -->
+         <div class="swiper-pagination"></div>
+
+         <div class="swiper-wrapper">
+         <!-- Slides -->
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano basico.png" 
+                alt="Plano Básico no valor de R$99,90"></a></div>
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano gold.png" 
+                alt="Plano Gold no valor de R$129,90"></a></div>
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano intermediário.png" 
+                alt="Plano Intermediário no valor de 109,90"></a></div>
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano basico.png" 
+                alt="Plano Básico no valor de R$99,90"></a></div>
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano gold.png" 
+                alt="Plano Gold no valor de R$129,90"></a></div>
+         <div class="swiper-slide"><a href="/contato.html"><img src="/img/plano intermediário.png" 
+                alt="Plano Intermediário no valor de 109,90"></a></div>
+         </div>
+
+      
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+         </div>
+        
+    </body>
+
+    <footer>
+        <div class="container">
+                <img src="/img/LOGO GM2.png" class="container__imagem">
+                <h1 class="container__titulo">Martins Gym</h1>
+                <p class="textorodape">© 2023 Academia Martins GYM - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+        navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                },
+        });
+    </script>
+
+    <script src="/main.js"></script>
+
+</html>

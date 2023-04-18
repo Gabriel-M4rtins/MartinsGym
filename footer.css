@@ -1,0 +1,12 @@
+footer {
+    background-image:url(/img/fundo\ rodapé.jpg);
+    padding: 3em;
+    color: var(--header-cor-de-fundo);
+    font-size: 25px;
+}
+
+.textorodape {
+    font-size: 22px;
+    color: var(--header-cor-de-fundo);
+    margin: 0 8em;
+}
